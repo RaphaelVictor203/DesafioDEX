@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'open sans semibold';
+    src: url('./fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'open sans bold';
+    src: url('./fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'open sans light';
+    src: url('./fonts/OpenSans-Light.ttf');
+}
+
+.cont-form {
+    margin-top: 3vmin;
+    float: left;
+    margin-bottom: 100vmin;
+}
+
+.form-render {
+    width: 62.5vmin;
+    height: 100vmin;
+    background-color: white;
+    box-shadow: 0px 0px 4px #9B9B9B;
+    border-radius: 2px;
+    padding-top: 10vmin;
+    z-index: 1;
+    position: absolute;
+}
+
+.flexView {
+    margin-left: 16.5vmin;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    height: 10vmin;
+    margin-bottom: 5vmin;
+    user-select: none;
+}
+
+.txtInput {
+    font-size: 2.5vmin;
+    font-family: 'open sans semibold';
+    color: #4A4A4A;
+    user-select: none;
+}
+
+.txtCheckbox {
+    font-size: 2.3vmin;
+    margin-left: 1.2vmin;
+    font-family: 'open sans light';
+    color: #4A4A4A;
+    user-select: none;
+}
+
+.link-conta {
+    text-decoration: none;
+    font-family: 'open sans semibold';
+    font-size: 2.1vmin;
+    color: #4A4A4A;
+    margin-bottom: 6vmin;
+    margin-top: 3vmin;
+    margin-left: 1.2vmin;
+}
+
+.link-termos {
+    text-decoration: none;
+    font-family: 'open sans light';
+    font-size: 2.1vmin;
+    color: #4A4A4A;
+    margin-top: 3vmin;
+    margin-bottom: 10vmin;
+}
+
+.checkbox-style {
+    width: 2.3vmin;
+    height: 2.3vmin;
+    margin-left: 1.2vmin;
+    margin-top: 2.5vmin;
+    border: none;
+    background-color: white;
+    -webkit-appearance: none;
+	border: 1px solid #4A4A4A;
+	display: inline-block;
+    position: relative;
+}
+
+.checkbox-style:checked {
+	background-color: #e9ecee;
+	color: #99a1a7;
+}
+
+.checkbox-style:hover {
+    cursor: pointer;
+}
+
+.img {
+    height: 61vmin;
+    width: 122.8vmin;
+    position: absolute;
+    margin-left: 30vmin;
+    margin-top: 15vmin;
+    user-select: none;
+}
+
+.btnAcessar {
+    width: 50vmin;
+    height: 8vmin;
+    border: none;
+    background: linear-gradient( to right, #AE23A9, #DC4E1B);
+    color: white;
+    font-family: 'open sans semibold';
+    font-size: 2.5vmin;
+    cursor: pointer;
+}
+
+fieldset {
+    border-top: 1px, solid, #4A4A4A;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    display: block;
+    text-align: center;
+}
+
+fieldset legend {
+    padding: 5px 15px;
+    font-family: 'open sans light';
+    color: #4A4A4A;
+}
+
+.btnCadastrar {
+    width: 50vmin;
+    height: 7vmin;
+    color: #4A4A4A;
+    font-family: 'open sans semibold';
+    font-size: 2.5vmin;
+    background: none;
+    border: 1px solid #4A4A4A;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'open sans semibold';
+    src: url('./fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'open sans bold';
+    src: url('./fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'open sans light';
+    src: url('./fonts/OpenSans-Light.ttf');
+}
+
+.container-menu {
+    width: 100%;
+    height: 15vmin;
+    background-color: white;
+    border-bottom: .01px solid rgba(155, 155, 155, .6);
+    padding-top: 4vmin;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    height: 3.9vmin;
+    margin-right: 49vmin;
+}
+
+.opcMenu {
+    text-decoration: none;
+    color: #9B9B9B;
+    font-size: 2.7vmin;
+    margin-left: 10vmin;
+    float: left;
+    user-select: none;
+}
+
+.opcMenu:hover{
+    cursor: pointer;
+}

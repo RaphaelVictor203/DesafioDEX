@@ -1,0 +1,23 @@
+.container-item {
+    width: 42vmin;
+    height: 42vmin;
+    margin-right: 5.68vmin;
+    margin-bottom: 5.3vmin;
+    float: left;
+    background-size: cover;
+    box-shadow: 0px 0px 5px rgba(155, 155, 155, .6);
+}
+
+.name-item {
+    font-size: 4vmin;
+    color: white;
+    font-family: 'open sans semibold';
+    user-select: none;
+}
+
+.legend {
+    width: 42vmin;
+    height: 10vmin;
+    background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,0));
+    padding-left: 2.5vmin;
+}

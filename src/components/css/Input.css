@@ -1,0 +1,17 @@
+.input {
+    width: 40vmin;
+    font-size: 2.4vmin;
+    border: none;
+    background-color: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.container-input {
+    width: 50vmin;
+    height: 8vmin;
+    border: 1px solid #4A4A4A;
+    margin-top: -1.5vmin;
+}
